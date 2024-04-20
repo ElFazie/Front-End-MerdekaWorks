@@ -1,0 +1,250 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'));
+
+body {
+    background-color: #015c93;
+}
+.container-box {
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.close {
+    background-color: transparent;
+    border-style: none;
+    font-size: 40px;
+    color: #015c93;
+    margin-left: 600px;
+    bottom: 15px;
+}
+
+.close:hover {
+    cursor:pointer;
+    opacity: 0.7;
+}
+.header {
+    border-bottom: 2px solid black;
+    padding-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header h2 {
+    color: #015c93;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+.isi {
+    font-family: "Roboto", sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.label-1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: px;
+}
+
+.label-1 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font: size 16px;
+    color: #015c93;
+}
+
+.input-1 input {
+    width: 700px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-style: solid;
+    border-color: grey;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0px 3px gray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.label-2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font: size 16px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 5px;
+    color: #015c93;
+    dis
+}
+
+.input-2 textarea {
+    width: 715px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-style: solid;
+    border-color: grey;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px gray;
+    resize: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.button {
+    padding-top: 100px;
+    padding-left: 225px;
+    padding: bottom 5px;
+}
+
+.button .upload:hover {
+    cursor:pointer;
+    opacity: 0.7;
+}
+.button .upload {
+    height: 70px;
+    width: 375px;
+    font-size: 25px;
+    color: #015c93;
+    border-style: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: #BEE6FF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.button .kembali {
+    margin-top: 30px;
+    margin-left: 230px;
+    margin-bottom: 5px;
+}
+
+.button .kembali:hover {
+    cursor:pointer;
+    opacity: 0.7;
+}
+
+.button .kembali {
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    border-color: #015c93;
+    color: #015c93;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding-right: 10px;
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.button .kirim {
+    margin-top: 50px;
+}
+.button .kirim:hover {
+    cursor:pointer;
+    opacity: 0.7;
+}
+
+.button .kirim {
+    height: 50px;
+    width: 150px;
+    background-color:#015c93;
+    border-color: #015c93;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding-right: 10px;
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+
+
+/* Submit Sukses */
+body {
+    background-color: #015c93;
+}
+
+.container {
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.container .text {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.container .Tombol:hover {
+    cursor:pointer;
+    opacity: 0.7;
+}
+
+.container .Tombol {
+    height: 70px;
+    width: 375px;
+    font-size: 25px;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color:#015c93;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 5px;
+}
